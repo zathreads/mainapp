@@ -16,6 +16,9 @@ target/
 bin/
 lib/
 
+#Database file
+db/h2-1.4.192.jar
+
 dependency-reduced-pom.xml
 
 # Eclipse Project Files

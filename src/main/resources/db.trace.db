@@ -1,0 +1,19 @@
+2016-09-16 18:49:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO user (username, email, encryptedpassword, name, surname) VALUES
+  ('lsizani', 'lsizani@gmail.com', 'mypassword', 'Lunga', 'Sizani') [42102-191]
+2016-09-19 12:24:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO User (avatar_url, surname, name, email, encrypted_password, ) VALUES (null, , , , , ) [42102-192]
+2016-09-19 12:29:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+INSERT INTO User (avatar_url, surname, name, email, encrypted_password, ) VALUES (null, Sizani, Lunga, lsizani@gmail.com, asdf, ) [42102-192]
+2016-09-19 12:30:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO Users (avatar_url, surname, name, email, encrypted_password, ) VALUES (null, Sizani, Naem, 3240952@myuwc.ac.za, qwerty, ) [42102-192]
+2016-09-19 12:35:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO Users (avatar_url, surname, name, email, encrypted_password, ) VALUES (null, Sizani, Lunga, lsizani@gmail.com, asdfg, ) [42102-192]
+2016-09-19 12:41:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS" not found; SQL statement:
+INSERT INTO users (avatar_url, surname, name, email, encrypted_password, ) VALUES (null, Sizani, Lunga, lsizani@gmail.com, lungasizani, ) [42102-192]
